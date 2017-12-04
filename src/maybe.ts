@@ -8,7 +8,7 @@ export const actionTypes = {
   CALLED_MAYBE    : "CALLED_MAYBE",
 }
 
-interface MaybeMapping {
+export interface MaybeMapping {
   type:     string,
   callback: any,
   count:    number,

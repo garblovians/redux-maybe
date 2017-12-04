@@ -1,5 +1,5 @@
 {
-  "name": "redux-maybe",
+  "name": "@garblovians/redux-maybe",
   "version": "0.1.0",
   "description": "Package for attaching callback functions to redux messages. ",
   "main": "maybe.js",
@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/garblovians/redux-maybe/issues"
   },
-  "homepage": "https://github.com/garblovians/redux-maybe#readme"
+  "homepage": "https://github.com/garblovians/redux-maybe#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "redux": "^3.7.2",
+    "redux-observable": "^0.17.0",
+    "rxjs": "^5.5.3"
+  }
 }
