@@ -1,0 +1,29 @@
+{
+  "name": "redux-maybe",
+  "version": "0.1.0",
+  "description": "Package for attaching callback functions to redux messages. ",
+  "main": "maybe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/garblovians/redux-maybe.git"
+  },
+  "keywords": [
+    "Redux",
+    "ReactiveX",
+    "rxjs",
+    "Observable",
+    "TypeScript",
+    "ES6",
+    "Epic",
+    "Middleware"
+  ],
+  "author": "pehnen, lukashedegaard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garblovians/redux-maybe/issues"
+  },
+  "homepage": "https://github.com/garblovians/redux-maybe#readme"
+}
