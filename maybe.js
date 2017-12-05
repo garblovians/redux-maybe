@@ -18,7 +18,7 @@ exports.calledMaybe = () => {
     return { type: exports.actionTypes.CALLED_MAYBE };
 };
 exports.maybeEpic = (action$) => action$.ofType(exports.actionTypes.CALL_ME_MAYBE)
-    .flatMap((action) => action$.ofType(action.payload.type)
+    .switchMap((action) => action$.ofType(action.payload.type)
     .map((maybeAction) => {
     action.payload.callback();
     return exports.calledMaybe();

@@ -35,7 +35,7 @@ export const calledMaybe = () => {
 
 export const maybeEpic = (action$ : ActionsObservable<Action>) => 
   action$.ofType(actionTypes.CALL_ME_MAYBE)
-    .flatMap((action : MaybeAction) =>  
+    .switchMap((action : MaybeAction) =>  
       action$.ofType(action.payload.type)
       .map((maybeAction : MaybeAction) => {
         action.payload.callback();
