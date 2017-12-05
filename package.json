@@ -1,6 +1,6 @@
 {
-  "name": "@garblovians/redux-maybe",
-  "version": "0.1.1",
+  "name": "redux-maybe",
+  "version": "0.1.0",
   "description": "Package for attaching callback functions to redux messages. ",
   "main": "maybe.js",
   "scripts": {

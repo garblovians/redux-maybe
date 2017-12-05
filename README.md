@@ -1,7 +1,7 @@
 # redux-maybe
 Nodejs Package for attaching callback functions to redux messages. 
 
-redux-maybe is using redux-observables to attach callbacks. It's basically and epic which listen for the "CALL_ME_MAYBE" message including a messagetype to listen for, a callback and a number of times to repeat the callback.
+redux-maybe is using [redux-observable](https://redux-observable.js.org/) to attach callbacks. It's basically and epic which listen for the "CALL_ME_MAYBE" message including a messagetype to listen for, a callback and a number of times to repeat the callback.
 
 The name is designed to make Carly Rae Jepsens' hit song start playing in your brain everytime you use the package.
 
@@ -34,3 +34,7 @@ store.dispatch({type:"TEST_ACTION"});
 ```console
 CALLED_MAYBE
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
